@@ -9,7 +9,6 @@ public class PersonController {
 
     @GetMapping("/person")
     public Person getPerson(){
-
         return new Person("Paweł", "Gil", 13);
     }
 }
