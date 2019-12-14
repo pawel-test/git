@@ -23,7 +23,7 @@ public class StreamExample {
 
         colors.stream()
                 .filter(s -> {
-                    log.info("Testing object [{}]",s);
+                    log.info("Testing object [{}], passed ? [{}]",s,s.length() >= 4);
                     return s.length() >= 4;} )
                 .map(s -> {
                     log.info("mapping object [{}]",s);
