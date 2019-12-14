@@ -18,7 +18,8 @@ public class StreamExample {
                 "black",
                 "blue",
                 "red",
-                "pink"
+                "pink",
+                "gray"
         );
 
         colors.stream()
