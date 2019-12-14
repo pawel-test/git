@@ -30,6 +30,6 @@ public class StreamExample {
                     log.info("mapping object [{}]",s);
                     return s.length();})
                 .collect(Collectors.toList())
-                .forEach(integer -> System.out.println("number: " + integer));
+                .forEach(integer -> System.out.println("number: [" + integer + "]"));
     }
 }
