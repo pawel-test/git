@@ -19,4 +19,5 @@ public class LambdaExample {
         return w.getPerson(imie,nazwisko,wiek);
     }
 
+
 }
